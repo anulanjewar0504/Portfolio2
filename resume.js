@@ -37,3 +37,12 @@ function close() {
     popup.style.zIndex = '';  // Hide the popup by setting low z-index
     popup.style.transition = '0.7s ease-in-out';  // Animate hiding (optional)
 }
+function animateProgressBar() {
+    const progressBars = document.querySelectorAll('.progress-bar');
+
+    progressBars.forEach(progressBar => {
+        progressBar.style.animation = 'progressAnimationStrike 2s';
+        progressBar.style.width = '100%'
+
+    });
+}

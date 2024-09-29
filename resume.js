@@ -41,8 +41,8 @@ function animateProgressBar() {
     const progressBars = document.querySelectorAll('.progress-bar');
 
     progressBars.forEach(progressBar => {
-        progressBar.style.animation = 'progressAnimationStrike 2s';
-        progressBar.style.width = '100%'
+        progressBar.style.animation = 'progressAnimationStrike 6s';
+        // progressBar.style.width = '100%'
 
     });
 }
